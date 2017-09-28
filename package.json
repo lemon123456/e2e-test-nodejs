@@ -1,0 +1,21 @@
+{
+  "name": "e2e-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^3.0.3",
+    "wdio-cucumber-framework": "0.3.1"
+  },
+  "devDependencies": {
+    "wdio-chromedriver-service": "^0.1.1",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "webdriverio": "^4.8.0"
+  }
+}
