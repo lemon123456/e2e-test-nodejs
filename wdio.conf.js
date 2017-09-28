@@ -1,5 +1,5 @@
 exports.config = {
-    
+
     //
     // ==================
     // Specify Test Files
@@ -44,7 +44,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome'
+        browserName: 'firefox'
     }],
     //
     // ===================
@@ -119,7 +119,17 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    // reporters: ['dot'],//
+    reporters: ['dot', 'spec', 'junit', 'allure', 'teamcity', 'json', 'concise'],
+
+    reportOptions: {
+        junit: {
+            outputDir: './test/browser/reports',
+        },
+        json: {
+            outputDir: './test/browser/reports'
+        }
+    },
+    //
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         require: ['./features/step-definitions'],        // <string[]> (file/dir) require files before executing features
@@ -137,7 +147,7 @@ exports.config = {
         timeout: 20000,     // <number> timeout for step definitions
         ignoreUndefinedDefinitions: false, // <boolean> Enable this config to treat undefined definitions as warnings.
     },
-    
+
     //
     // =====
     // Hooks
@@ -247,4 +257,4 @@ exports.config = {
      */
     // onComplete: function(exitCode) {
     // }
-}
+};
