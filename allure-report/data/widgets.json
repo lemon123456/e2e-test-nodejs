@@ -1,0 +1,64 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "time" : {
+      "start" : 1506739937126,
+      "stop" : 1506739948615,
+      "duration" : 11489,
+      "minDuration" : 3084,
+      "maxDuration" : 4362,
+      "sumDuration" : 11487
+    }
+  },
+  "environment" : [ {
+    "values" : [ "{\"maxInstances\":5,\"browserName\":\"chrome\"}" ],
+    "name" : "capabilities"
+  }, {
+    "values" : [ "[\"/Users/twer/Documents/AutoTest/UI_Test/e2e-testing/features/specs/amazon-purchase.feature\"]" ],
+    "name" : "spec files"
+  } ],
+  "suites" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "b966dc602e446d354f7876af605506cc",
+      "name" : "Login Login with correct username and password",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ],
+  "behaviors" : {
+    "total" : 3,
+    "items" : [ ]
+  },
+  "executors" : [ ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

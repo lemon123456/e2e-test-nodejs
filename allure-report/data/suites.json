@@ -1,0 +1,45 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Login Login with correct username and password",
+    "children" : [ {
+      "name" : "I go to amazon home page",
+      "uid" : "ad23838e6bd43644",
+      "parentUid" : "b966dc602e446d354f7876af605506cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1506739937126,
+        "stop" : 1506739941167,
+        "duration" : 4041
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I login with username \"15109242187\" and password \"q1w2e3R$\"",
+      "uid" : "69ee8e24fe896a0",
+      "parentUid" : "b966dc602e446d354f7876af605506cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1506739941168,
+        "stop" : 1506739945530,
+        "duration" : 4362
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "I should see the account information",
+      "uid" : "5207675c19ba7229",
+      "parentUid" : "b966dc602e446d354f7876af605506cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1506739945531,
+        "stop" : 1506739948615,
+        "duration" : 3084
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b966dc602e446d354f7876af605506cc"
+  } ]
+}

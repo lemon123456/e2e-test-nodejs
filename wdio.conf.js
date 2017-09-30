@@ -44,7 +44,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'firefox'
+        browserName: 'chrome'
     }],
     //
     // ===================
@@ -106,7 +106,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
+    services: ['selenium-standalone', 'chromedriver'],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -119,16 +119,13 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    reporters: ['dot', 'spec', 'junit', 'allure', 'teamcity', 'json', 'concise'],
-
-    reportOptions: {
-        junit: {
-            outputDir: './test/browser/reports',
-        },
-        json: {
-            outputDir: './test/browser/reports'
+    reporters: ['dot', 'spec','allure'],
+    reporterOptions: {
+        allure: {
+            outputDir: 'allure-results'
         }
     },
+
     //
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {

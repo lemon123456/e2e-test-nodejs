@@ -1,0 +1,41 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "I go to amazon home page",
+    "uid" : "ad23838e6bd43644",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1506739937126,
+      "stop" : 1506739941167,
+      "duration" : 4041
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "I login with username \"15109242187\" and password \"q1w2e3R$\"",
+    "uid" : "69ee8e24fe896a0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1506739941168,
+      "stop" : 1506739945530,
+      "duration" : 4362
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "I should see the account information",
+    "uid" : "5207675c19ba7229",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1506739945531,
+      "stop" : 1506739948615,
+      "duration" : 3084
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}
