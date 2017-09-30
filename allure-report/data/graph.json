@@ -1,15 +1,15 @@
 [ {
-  "uid" : "ad23838e6bd43644",
-  "name" : "I go to amazon home page",
+  "uid" : "88dfe8e9b5a05a5",
+  "name" : "I should see the account information",
   "time" : {
-    "start" : 1506739937126,
-    "stop" : 1506739941167,
-    "duration" : 4041
+    "start" : 1506739945531,
+    "stop" : 1506739948615,
+    "duration" : 3084
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "69ee8e24fe896a0",
+  "uid" : "1d4f5f1775f96579",
   "name" : "I login with username \"15109242187\" and password \"q1w2e3R$\"",
   "time" : {
     "start" : 1506739941168,
@@ -19,12 +19,12 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5207675c19ba7229",
-  "name" : "I should see the account information",
+  "uid" : "c9ae87c36e70d18e",
+  "name" : "I go to amazon home page",
   "time" : {
-    "start" : 1506739945531,
-    "stop" : 1506739948615,
-    "duration" : 3084
+    "start" : 1506739937126,
+    "stop" : 1506739941167,
+    "duration" : 4041
   },
   "status" : "passed",
   "severity" : "normal"

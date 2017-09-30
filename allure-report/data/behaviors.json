@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "I go to amazon home page",
-    "uid" : "ad23838e6bd43644",
+    "uid" : "c9ae87c36e70d18e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -15,7 +15,7 @@
     "parameters" : [ ]
   }, {
     "name" : "I login with username \"15109242187\" and password \"q1w2e3R$\"",
-    "uid" : "69ee8e24fe896a0",
+    "uid" : "1d4f5f1775f96579",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -27,7 +27,7 @@
     "parameters" : [ ]
   }, {
     "name" : "I should see the account information",
-    "uid" : "5207675c19ba7229",
+    "uid" : "88dfe8e9b5a05a5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
