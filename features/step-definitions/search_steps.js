@@ -11,6 +11,7 @@ module.exports = function(){
 
     this.Then(/^I click the search button$/, function() {
         searchPage.searchButton.click();
-        // expect(searchPage.resultsList).not.to.equal(0);
+        console.log(searchPage.resultsList.getValue());
+        expect(searchPage.resultsList.getValue()).to.equal('webdriverIO');
     });
 };

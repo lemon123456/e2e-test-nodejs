@@ -19,7 +19,7 @@ class SearchPage {
     }
 
     get resultsList() {
-        return browser.element('#rso')
+        return browser.element('#lst-ib')
     }
 }
 module.exports = new SearchPage();

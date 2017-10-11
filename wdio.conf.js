@@ -178,6 +178,13 @@ exports.config = {
     // before: function (capabilities, specs) {
     // },
     //
+
+    before: function() {
+        let chai = require('chai');
+        global.expect = chai.expect;
+        chai.Should();
+    },
+
     /**
      * Hook that gets executed before the suite starts
      * @param {Object} suite suite details
