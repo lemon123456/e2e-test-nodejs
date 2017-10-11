@@ -10,9 +10,10 @@ npm install
 
 * Run test
 ```bash
-./node_modules/.bin/wdio wdio.conf.js
+npm run test
 ```
 * Generate html report
 ```bash
 allure generate --clean
 ```
+The report will be located in ./allure-report/index.html
