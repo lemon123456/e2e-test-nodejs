@@ -1,4 +1,4 @@
-@purchase
+@login
 Feature: Login
 
   Scenario: Login with correct username and password

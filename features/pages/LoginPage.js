@@ -1,8 +1,8 @@
-const Page = require('./page-es6');
+const Page = require('./Page');
 
 const url = 'https://www.amazon.cn/';
 
-class PurchasePage {
+class LoginPage {
     constructor() {
     }
 
@@ -36,5 +36,5 @@ class PurchasePage {
         this.signButton.click();
     }
 }
-module.exports = new PurchasePage();
+module.exports = new LoginPage();
 
