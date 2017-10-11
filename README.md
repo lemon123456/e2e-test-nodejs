@@ -10,7 +10,10 @@ npm install
 
 * Run test
 ```bash
-npm run test
+npm run sit
+or
+npm run uat
+
 ```
 * Generate html report
 ```bash
