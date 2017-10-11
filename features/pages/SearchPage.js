@@ -1,6 +1,6 @@
 const Page = require('./Page');
 
-const url = 'https://www.google.com/';
+const url = '/';
 
 class SearchPage {
     constructor() {

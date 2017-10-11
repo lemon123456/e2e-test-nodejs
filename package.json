@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "headless": "./node_modules/.bin/wdio wdio.headless.js"
+    "sit": "./node_modules/.bin/wdio ./features/config/wdio.sit.js",
+    "uat": "./node_modules/.bin/wdio ./features/config/wdio.uat.js"
   },
   "private": true,
   "license": "ISC",
