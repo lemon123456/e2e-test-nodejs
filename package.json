@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "sit": "./node_modules/.bin/wdio ./features/config/wdio.sit.js",
-    "uat": "./node_modules/.bin/wdio ./features/config/wdio.uat.js"
+    "test": "wdio wdio.conf.js",
+    "sit": "wdio ./features/config/wdio.sit.js",
+    "uat": "wdio ./features/config/wdio.uat.js"
   },
   "private": true,
   "license": "ISC",
