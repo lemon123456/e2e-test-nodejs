@@ -10,9 +10,9 @@ npm install
 
 * Run test
 ```bash
-npm run sit
+yarn sit
 or
-npm run uat
+yarn uat
 
 ```
 * Generate html report
