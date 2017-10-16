@@ -129,7 +129,7 @@ exports.config = {
         },
         captureStandardOutput: false, // optional
         flowId: true, // optional
-        message: '[title]', // optional 
+        message: '[title]', // optional
     },
 
     //
