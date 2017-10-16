@@ -1074,7 +1074,7 @@ lazystream@^1.0.0, lazystream@~1.0.0:
   dependencies:
     readable-stream "^2.0.5"
 
-lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.8.0, lodash@~4.17.2, lodash@~4.17.4:
+lodash@^4.0.0, lodash@^4.14.0, lodash@^4.15.0, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.8.0, lodash@~4.17.2, lodash@~4.17.4:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -1895,6 +1895,12 @@ wdio-sync@0.6.14:
     babel-runtime "6.23.0"
     fibers "~1.0.15"
     object.assign "^4.0.3"
+
+wdio-teamcity-reporter@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/wdio-teamcity-reporter/-/wdio-teamcity-reporter-1.1.1.tgz#1f862bd000cdcbb34eff8fd6872df830cbeb8585"
+  dependencies:
+    lodash "^4.15.0"
 
 webdriverio@^4.8.0:
   version "4.8.0"

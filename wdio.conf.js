@@ -122,11 +122,14 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    reporters: ['dot', 'spec','allure'],
+    reporters: ['dot', 'spec','allure', 'teamcity'],
     reporterOptions: {
         allure: {
             outputDir: 'allure-results'
-        }
+        },
+        captureStandardOutput: false, // optional
+        flowId: true, // optional
+        message: '[title]', // optional 
     },
 
     //
