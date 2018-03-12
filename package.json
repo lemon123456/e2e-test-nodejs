@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
-    "cucumber": "^3.0.3"
+    "cucumber": "^3.0.3",
+    "wdio-selenium-standalone-service": "0.0.9"
   },
   "devDependencies": {
     "wdio-allure-reporter": "^0.1.2",
@@ -21,7 +22,6 @@
     "wdio-dot-reporter": "0.0.9",
     "wdio-firefox-profile-service": "^0.1.0",
     "wdio-phantomjs-service": "^0.2.2",
-    "wdio-selenium-standalone-service": "0.0.9",
     "wdio-spec-reporter": "^0.1.2",
     "wdio-teamcity-reporter": "^1.1.1",
     "webdriverio": "^4.8.0"
