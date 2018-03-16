@@ -1,3 +1,23 @@
+import paths from './infra/paths';
+import path from 'path';
+const chromeBinaryPath = path.resolve(paths.chromeBinary);
+const chromeCapabilities = {
+    browserName: 'chrome',
+    chromeOptions: {
+        binary: chromeBinaryPath,
+        args: [
+            '--disable-popup-blocking',
+            '--disable-gpu-sandbox',
+            '--ignore-certificate-errors',
+            '--window-position=0,0',
+            '--window-size=1280,1024',
+            '--disable-infobars',
+            '--disable-extensions'
+            // '--force-fieldtrials=AppBannerTriggering/Aggressive/AutofillEnabled/Default/*AutomaticTabDiscarding/Enabled_Once'
+        ]
+    }
+};
+
 exports.config = {
 
     //
@@ -38,17 +58,7 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
-    capabilities: [{
-        // maxInstances can get overwritten per capability. So if you have an in-house Selenium
-        // grid with only 5 firefox instances available you can make sure that not more than
-        // 5 instances get started at a time.
-        maxInstances: 1,
-        //
-        browserName: 'phantomjs',
-        // chromeOptions: {
-        //     "args": ['start-maximized', 'headless', 'disable-gpu']
-        // },
-    }],
+    capabilities: [chromeCapabilities],
     //
     // ===================
     // Test Configurations
@@ -109,7 +119,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone', 'chromedriver', 'phantomjs'],
+    services: [],
     //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -122,7 +132,8 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    reporters: ['dot', 'spec','allure', 'teamcity'],
+    reporters: ['spec', 'teamcity'],
+
     reporterOptions: {
         allure: {
             outputDir: 'allure-results'
@@ -185,7 +196,7 @@ exports.config = {
     // },
     //
 
-    before: function() {
+    before: function () {
         var chai = require('chai');
         global.expect = chai.expect;
         chai.Should();
